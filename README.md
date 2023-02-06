@@ -16,7 +16,7 @@ Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
 $ git clone https://github.com/maikelensalles/to-do-list.git
-$ cd to-do-list]
+$ cd to-do-list
 
 # Iniciar o projeto
 $ npm start
