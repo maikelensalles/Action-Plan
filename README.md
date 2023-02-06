@@ -16,15 +16,13 @@ Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
 $ git clone https://github.com/maikelensalles/to-do-list.git
-$ cd to-do-list
-```
-
-Para iniciá-lo, siga os passos abaixo:
-```bash
-
 # Iniciar o projeto
+
+$ cd to-do-list
 $ npm start
+
 ```
+
 O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
 
