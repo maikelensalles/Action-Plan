@@ -1,14 +1,17 @@
 .list-container {
-    display: flex;
     flex-flow: column nowrap;
-    background-color: #fff;
-    border: 1px solid black;
-    box-shadow: 3px 3px 5px 6px #ccc;
+    height: 100vh;
   }
+
+  .container {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
   
-  input {
+    TextField {
     padding-left: 10px;
-    background-color: #fff;
     outline: none;
     height: 40px;
     border: none;
@@ -16,12 +19,10 @@
   
   button {
     cursor: pointer;
-    height: 42px;
-    background: #fff;
+    height: 57px;
     box-shadow: none;
     border-radius: 0px;
     border: 0;
-    color: #1bb0f4;
     font-weight: 600;
     text-transform: uppercase;
   }
@@ -31,13 +32,14 @@
   }
   
   ul {
-    background-color: #e6e6e6;
+    padding: 16px 0px 0px 0px;
+    list-style: none;
     margin: 0;
-    padding-top: 16px;
   }
   
   li {
-    margin-bottom: 8px;
+    padding: 5px; 
+    padding-top: 50px;
   }
 
   body {
@@ -47,10 +49,8 @@
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+    margin: 0;
+
   }
   
   code {
