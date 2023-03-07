@@ -19,10 +19,10 @@ export default function CheckboxList() {
             }
             return;
           }}>
-            <TextField label="Tarefa" variant="outlined" type="text"
+            <TextField label="Task" variant="outlined" type="text"
               value={value}
               onChange={event => setValue(event.target.value)} />
-            <button type='submit'>Adicionar</button>
+            <button type='submit'>to add</button>
           </form>
           <ul>
             {todos.map((todo, index) => (
