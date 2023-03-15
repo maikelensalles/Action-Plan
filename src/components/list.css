@@ -1,6 +1,7 @@
 .list-container {
     flex-flow: column nowrap;
-    height: 100vh;
+    min-height: 100vh;
+
   }
 
   .container {
@@ -56,4 +57,10 @@
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;
+  }
+
+  @media (max-width: 600px) {
+    .lcr--content {
+      margin-top: 0%;
+    }
   }
