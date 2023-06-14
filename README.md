@@ -1,6 +1,6 @@
 ## 💻 Projeto
 
-Lista de tarefas é perfeito para tornar seu dia mais produtivo, uma forma de organizar as atividades que não podem ser esquecidas, e que não estão inseridas na nossa rotina. 
+Action Plan é perfeito para tornar seu dia mais produtivo, uma forma de organizar as atividades que não podem ser esquecidas, e que não estão inseridas na nossa rotina. 
 
 ## 🧪 Tecnologias
 
