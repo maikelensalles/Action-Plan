@@ -2,7 +2,7 @@ import React, { ChangeEvent, useState } from 'react';
 import TextField from '@mui/material/TextField';
 import { ITask } from "./Interfaces";
 import './list.css';
-import TodoTask from './TodoTask';
+import Note from './Note';
 
 export default function CheckboxList() {
 
@@ -38,9 +38,9 @@ export default function CheckboxList() {
             <TextField id="outlined-basic" label="Adicionar tarefa" variant="outlined" type="text" name="task"  value={task}  onChange={handleChange} />
               <button onClick={addTask}>Add</button>
             </div>
-            <div className="todoList">
+            <div className="note">
               {todo.map((task:ITask, key:number)=>{
-                return <TodoTask key={key} task={task} completeTask={completeTask} />
+                return <Note key={key} task={task} completeTask={completeTask} />
               })}
             </div>
           </div>
