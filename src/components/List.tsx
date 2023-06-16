@@ -15,7 +15,7 @@ export default function CheckboxList() {
     }
   }
 
-  const addTask = () =>{
+  const addTask = () => {
     const newTask = {
       taskName:task
     }
@@ -34,10 +34,10 @@ export default function CheckboxList() {
         <div className="container">
           <div className="header">
             <div className="inputContainer">
-            
-            <TextField id="outlined-basic" label="Adicionar tarefa" variant="outlined" type="text" name="task"  value={task}  onChange={handleChange} />
-              <button onClick={addTask}>Add</button>
+              <TextField id="outlined-basic" label="Adicionar tarefa" variant="outlined" type="text" name="task"  value={task}  onChange={handleChange} />
+              <button className="addTask" onClick={addTask}>Add</button>
             </div>
+            
             <div className="note">
               {todo.map((task:ITask, key:number)=>{
                 return <Note key={key} task={task} completeTask={completeTask} />
